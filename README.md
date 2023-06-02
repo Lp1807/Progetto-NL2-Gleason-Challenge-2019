@@ -24,15 +24,20 @@ Firstly, we decided to combine them through the STAPLE algorithm, in order to ha
 
 
 We decided for hardware reason to resize the image from 5120x5120 (on average) to 1024x1024 and divide them into patches of 512x512 with 50% overlapping, for a total of 9 patches per image.
-<img width="1064" alt="toPatches" src="https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/245f9332-44cb-4d82-bd1d-31197c63ffe3">
+<img width="1064" alt="toPatches" src="https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/13a7ee26-3f11-4e17-9791-7ab09c26d48a">
+
 
 For the training we used a UNet with an EfficientNetB4 as the backbone; we used data augmentation for our 244 patients, in order to improve the accuracy of the model and avoid overfitting
 
 
 ## Results
 Below some predictions from the validation dataset
-![s001_c012](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/fa6b331a-594e-4a93-87c6-b4cc54df9e3d)
-![s001_c039](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/3ccec07a-fa39-40c3-912e-9bfbc48a9e19)
-![s003_c080](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/80551b07-9278-42d2-9fcd-8a32b1769ce0)
+![s001_c012](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/3b72b46d-1a8a-4ca1-9797-a19fdeb9cf9c)
+![s001_c039](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/9bab0664-9445-404c-8ebb-64866946e0b3)
+![s003_c080](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/ec9af3d5-605b-4756-bec2-e2f6db0a5658)
 
-![s006_c129](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/89579b95-aff6-4e17-b65b-4fadbb601b65)
+![s006_c129](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/89279136-009f-4bbf-94a6-c699de668df9)
+
+
+
+
