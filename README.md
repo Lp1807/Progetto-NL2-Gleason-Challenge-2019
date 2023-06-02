@@ -29,7 +29,7 @@ For the training we used a UNet with an EfficientNetB4 as the backbone; we used 
 
 
 ## Results
-Below some prediction from the validation dataset
+Below some predictions from the validation dataset
 ![s001_c012](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/fa6b331a-594e-4a93-87c6-b4cc54df9e3d)
 ![s001_c039](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/3ccec07a-fa39-40c3-912e-9bfbc48a9e19)
 ![s003_c080](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/80551b07-9278-42d2-9fcd-8a32b1769ce0)
