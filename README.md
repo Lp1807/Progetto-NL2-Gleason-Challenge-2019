@@ -20,7 +20,8 @@ For the training we split the 244 patients in a training dataset and a validatio
 ## Our Approach
 Each patient has from 3 to 6 label, each annotated by an expert pathologist, with 6 pixel values (0 for background, 1-5 for Gleason Grading). 
 Firstly, we decided to combine them through the STAPLE algorithm, in order to have a single label per image that should best represent the tumour grading.
-![ComparisonStaple](https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/d70cbebe-1136-4fa1-b6ff-65c1df04442a)
+<img width="969" alt="ComparisonStaple" src="https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/10a44607-10e9-40e9-8205-7aad5a562971">
+
 
 
 We decided for hardware reason to resize the image from 5120x5120 (on average) to 1024x1024 and divide them into patches of 512x512 with 50% overlapping, for a total of 9 patches per image.
