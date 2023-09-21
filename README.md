@@ -27,8 +27,10 @@ We decided for hardware reason to resize the image from 5120x5120 (on average) t
 <img width="1064" alt="toPatches" src="https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/13a7ee26-3f11-4e17-9791-7ab09c26d48a">
 <img width="1063" alt="overlapping" src="https://github.com/Lp1807/Progetto-NL2-Gleason-Challenge-2019/assets/93043012/b08fa878-62e3-4aaa-a714-98f238dddc1c">
 
-For the training we used a UNet with an EfficientNetB4 as the backbone; we used data augmentation for our 244 patients, in order to improve the accuracy of the model and avoid overfitting
-To implement the proposed solution and train the proposed DL model, we use Colab Free, which offers a NVIDIA T4 GPU with 12 GB RAM. Additionally the model was implemented in Keras (version 2.12.0), extended with Segmentation Model (version 1.0.1), for the evaluation metrics and training losses.
+For the training we used a UNet with an EfficientNetB4 as the backbone; we used data augmentation for our 244 patients, in order to improve the accuracy of the model and avoid overfitting.
+
+To implement the proposed solution and train the proposed DL model, we use Colab Free, which offers a NVIDIA T4 GPU with 12 GB RAM. 
+The model was implemented in Keras (version 2.12.0), extended with Segmentation Model (version 1.0.1), for the evaluation metrics and training losses.
 
 
 ## Results
